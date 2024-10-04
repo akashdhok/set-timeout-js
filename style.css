@@ -1,0 +1,67 @@
+#web{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* display: none; */
+}
+#box{
+    width: 900px;
+    height: 60vh;
+    border: 2px solid #024d81;
+    border-radius: 20px;
+    background-color:#024d81 ;
+    color: white;
+    position: absolute;
+    left: 270px;
+    top: 250px;
+    display: none;
+}
+.article{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 30px; */
+    margin-left: 20px;
+}
+.article button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius:10px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #024d81;
+}
+.second{
+    background-color: white;
+    width: 850px;
+    height: 30vh;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.second input{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    border: 1px solid grey;
+}
+.second button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius:10px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white; 
+    background-color: #024d81;   
+}
+.fa-xmark{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    margin-left: 860px;
+    margin-top: 10px;
+}
